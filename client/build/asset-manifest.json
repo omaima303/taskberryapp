@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a2df697b.chunk.css",
+    "main.js": "/static/js/main.d19c103d.chunk.js",
+    "main.js.map": "/static/js/main.d19c103d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.84247e1d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.84247e1d.js.map",
+    "static/css/2.406a75af.chunk.css": "/static/css/2.406a75af.chunk.css",
+    "static/js/2.53d493c7.chunk.js": "/static/js/2.53d493c7.chunk.js",
+    "static/js/2.53d493c7.chunk.js.map": "/static/js/2.53d493c7.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.9ae86b7924181342cc244799647d5490.js": "/precache-manifest.9ae86b7924181342cc244799647d5490.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.406a75af.chunk.css.map": "/static/css/2.406a75af.chunk.css.map",
+    "static/css/main.a2df697b.chunk.css.map": "/static/css/main.a2df697b.chunk.css.map",
+    "static/js/2.53d493c7.chunk.js.LICENSE.txt": "/static/js/2.53d493c7.chunk.js.LICENSE.txt",
+    "static/media/custom.css": "/static/media/TaskBerry-image.c0eabe3a.jpg",
+    "static/media/argon-react.png": "/static/media/argon-react.f38ddea9.png",
+    "static/media/all.min.css": "/static/media/fa-solid-900.cdfec5cf.woff",
+    "static/media/nucleo.css": "/static/media/nucleo-icons.f82ec6ba.ttf",
+    "static/media/team-1-800x800.jpg": "/static/media/team-1-800x800.53033970.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.84247e1d.js",
+    "static/css/2.406a75af.chunk.css",
+    "static/js/2.53d493c7.chunk.js",
+    "static/css/main.a2df697b.chunk.css",
+    "static/js/main.d19c103d.chunk.js"
+  ]
+}
