@@ -27,20 +27,6 @@ mongoose.connect(
   }
 );
 
-// mongoose.connect(
-//   "mongodb://localhost:27017/fiverclient",
-//   {
-//     useNewUrlParser: true,
-//     useUnifiedTopology: true,
-//     useFindAndModify: false,
-//   },
-//   (err) => {
-//     if (err) {
-//       // eslint-disable-next-line no-console
-//       console.log(err);
-//     }
-//   }
-// );
 
 // Middlewares
 app.use(morgan("dev")); // Loggin middleware
@@ -49,8 +35,7 @@ app.use(bodyparser.json()); // Body-parser for JSON data
 
 // CORS Handling middle-ware
 app.use((req, res, next) => {
-  // In the production build, replace "*" with the url of the client side application
-  // [Restricting for only specified domain]
+ 
   res.header("Access-Control-Allow-Origin", "*");
   res.header(
     "Access-Control-Allow-Headers",
