@@ -1,7 +1,6 @@
 /*eslint-disable*/
 import React from 'react';
 import { NavLink as NavLinkRRD, Link } from 'react-router-dom';
-// nodejs library to set properties for components
 import { PropTypes } from 'prop-types';
 
 // reactstrap components
@@ -61,7 +60,7 @@ class Sidebar extends React.Component {
             collapseOpen: false
         });
     };
-    // creates the links that appear in the left menu / Sidebar
+    
     createLinks = (routes) => {
         return routes.map((prop, key) => {
             if (prop.hideInSidebar) {
@@ -236,19 +235,13 @@ Sidebar.defaultProps = {
 };
 
 Sidebar.propTypes = {
-    // links that will be displayed inside the component
+   
     routes: PropTypes.arrayOf(PropTypes.object),
     logo: PropTypes.shape({
-        // innerLink is for links that will direct the user within the app
-        // it will be rendered as <Link to="...">...</Link> tag
         innerLink: PropTypes.string,
-        // outterLink is for links that will direct the user outside the app
-        // it will be rendered as simple <a href="...">...</a> tag
-        outterLink: PropTypes.string,
-        // the image src of the logo
+         outterLink: PropTypes.string,
         imgSrc: PropTypes.string.isRequired,
-        // the alt for the img
-        imgAlt: PropTypes.string.isRequired
+      imgAlt: PropTypes.string.isRequired
     })
 };
 
